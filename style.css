@@ -3,5 +3,10 @@ body {
 }
 
 .card {
-  font-size: 200%; 
+  position: absoulute;
+  font-size: 400%; 
+  
+}
+.card:hover {
+  top: 20px;
 }
