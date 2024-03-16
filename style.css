@@ -11,12 +11,12 @@ body {
 .card:hover {
   cursor: grab;
   top: -5px;
-  animation: scale 0.5s linear;
+  animation: scale 0.5s linear infinite;
 }
 .card:active {
   cursor: grabbing;
   top: -5px;
-  animation: scale 0.5s linear;
+  animation: scale 0.5s linear infinite;
 }
 
 @keyframes scale {
