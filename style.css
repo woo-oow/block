@@ -1,11 +1,12 @@
 body {
-  font-family: arial;
+  font-family: Arial, sans-serif;
 }
 
 .card {
+  display: flex;
+  flex-items: center;
   position: relative;
   font-size: 300%; 
-  
 }
 .card:hover {
   cursor: grab;
