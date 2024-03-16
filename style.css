@@ -12,11 +12,20 @@ body {
   cursor: grab;
   top: -5px;
   font-size: 64px; 
-  animation: transform 0.5s linear;
+  animation: up 0.5s linear;
 }
 .card:active {
   cursor: grabbing;
   top: -5px;
   font-size: 58px; 
-  animation: transform 0.5s linear;
+  animation: up 0.5s linear;
+}
+
+@keyframes up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-5px);
+  }
 }
