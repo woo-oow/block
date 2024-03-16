@@ -12,11 +12,11 @@ body {
   cursor: grab;
   top: -5px;
   font-size: 64px; 
-  animation: transform 0.5s linear
+  animation: transform 0.5s linear;
 }
 .card:active {
   cursor: grabbing;
   top: -5px;
   font-size: 58px; 
-  animation: transform 0.5s linear
+  animation: transform 0.5s linear;
 }
