@@ -9,4 +9,9 @@ body {
 }
 .card:hover {
   top: 20px;
+  cursor: grab;
+}
+.card:active {
+  cursor: grabbing;
+  top: 20px;
 }
