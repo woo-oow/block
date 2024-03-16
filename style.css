@@ -10,12 +10,10 @@ body {
 }
 .card:hover {
   cursor: grab;
-  top: -5px;
-  animation: scale 0.5s linear infinite;
+  outline: 2px solid black;
 }
 .card:active {
   cursor: grabbing;
-  top: -5px;
   animation: scale 0.5s linear infinite;
 }
 
