@@ -6,15 +6,17 @@ body {
   display: flex;
   flex-items: center;
   position: relative;
-  font-size: 300%; 
+  font-size: 64px; 
 }
 .card:hover {
   cursor: grab;
-  top: -10px;
-  animation: 1s
+  top: -5px;
+  font-size: 64px; 
+  animation: transform 0.5s linear
 }
 .card:active {
   cursor: grabbing;
-  top: -10px;
-  animation: 1s
+  top: -5px;
+  font-size: 58px; 
+  animation: transform 0.5s linear
 }
