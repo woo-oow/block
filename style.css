@@ -3,13 +3,13 @@ body {
 }
 
 .card {
-  position: absoulute;
-  font-size: 400%; 
+  position: relative;
+  font-size: 300%; 
   
 }
 .card:hover {
-  top: 20px;
   cursor: grab;
+  top: 20px;
 }
 .card:active {
   cursor: grabbing;
