@@ -9,9 +9,11 @@ body {
 }
 .card:hover {
   cursor: grab;
-  top: 20px;
+  top: -10px;
+  animation: 1s
 }
 .card:active {
   cursor: grabbing;
-  top: 20px;
+  top: -10px;
+  animation: 1s
 }
