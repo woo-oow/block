@@ -2,27 +2,18 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.card {
-  display: flex;
-  flex-items: center;
-  position: relative;
-  font-size: 64px; 
-}
-.card:hover {
-  cursor: grab;
-  outline: 2px solid black;
-}
-.card:active {
-  cursor: grabbing;
-  animation: scale 0.5s linear infinite;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    grid-template-rows: repeat(20, 30px);
+    gap: 1px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
 }
 
-@keyframes scale {
-  0% {
-    font-size: 58px;
-  }
-  100% {
-    font-size: 64px;
-  }
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
 }
-
